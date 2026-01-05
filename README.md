@@ -74,3 +74,10 @@ $newWorkitem = $client->createWorkitem([
 ## Manual Usage
 
 Adjust `YunxiaoConfig` with a custom domain or organization ID when needed, and rely on the `request()` helper to call more endpoints as needed.
+
+## 提交信息
+
+初始提交包括：
+- 添加 README 和配置说明
+- 添加依赖清单，方便后续维护
+- 使用中文提交信息说明历史
