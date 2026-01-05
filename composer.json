@@ -1,0 +1,33 @@
+{
+    "name": "lingb/aliyun-yunxiao-devops",
+    "description": "A lightweight Yunxiao (Aliyun DevOps) helper client for PHP projects.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lingb\\AliyunYunxiaoDevops\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lingb\\AliyunYunxiaoDevops\\YunxiaoServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
